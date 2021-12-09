@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.header {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .logo {
+    margin: 0 2rem;
+    align-self: center;
+  }
+  .header .logo img {
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+  }
+  .contenidoPrincipal img {
+    width: 30%;
+    height: auto;
+    background-size: cover;
+  }
+  .contenidoPrincipal {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+  }
+  .subTitle{
+    text-align: center;
+    font-family: Robotto;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#footer{    
+    color: black;
+	height: auto;
+	background-color: rgb(224, 220, 220);
+    padding: 8px;
+    font-family: Roboto;  
+}
+
+/*MEDIA QUERIES MOBILE*/
+
+@media all and (max-width: 568px) {
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+    .header {
+        flex-direction: column;
+      }
+      .header .logo {
+        margin: 0 2rem;
+      }  
+      .contenidoPrincipal {
+        margin: 5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+      }
+    
+      .contenidoPrincipal img {
+        width: 100%;
+        height: 20rem;
+        background-size: cover;
+      }
+      .contenidoPrincipal {
+        margin: 5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+      }
+    
+      .contenidoPrincipal img {
+        width: 100%;
+        height: 20rem;
+        background-size: cover;
+      }
+      #footer{    
+        color: black;
+        height: auto;
+        background-color: rgb(224, 220, 220);
+        padding: 8px;
+        font-family: Roboto;  
+    }
+    }
